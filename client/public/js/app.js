@@ -58,7 +58,7 @@ $(document).ready(function() {
         })
         messageP.text("Message: " + posts.rows[i].messages);
         messageWrap.append(nameP).append(messageP).append(editButton)
-        messageBoard.append(messageWrap);
+        messageBoard.prepend(messageWrap);
       }
       $('#Forum-Table').append(messageBoard)
 
