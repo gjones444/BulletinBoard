@@ -1,0 +1,23 @@
+{
+  "name": "bulletinboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkerr1870/BulletinBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkerr1870/BulletinBoard/issues"
+  },
+  "homepage": "https://github.com/jkerr1870/BulletinBoard#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2"
+  }
+}
